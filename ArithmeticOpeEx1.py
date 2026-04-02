@@ -1,0 +1,15 @@
+#ArithmeticOperatorsEx1.py
+a=int(input("Enter value of a:"))
+b=int(input("Enter value of b:"))
+print("*"*50)
+print("Results of Arithmetic operations")
+print("*"*50)
+print("\tsum({},{})={}".format(a,b,a+b))
+print("\tsub({},{})={}".format(a,b,a-b))
+print("\tmul({},{})={}".format(a,b,a*b))
+print("\tdiv({},{})={}".format(a,b,a/b))
+print("\tFloor-div({},{})={}".format(a,b,a//b))
+print("\tModulo({},{})={}".format(a,b,a%b))
+print("\tPow({},{})={}".format(a,b,a**b))
+print("*"*50)
+
